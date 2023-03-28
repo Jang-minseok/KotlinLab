@@ -26,6 +26,7 @@
         android:textSize="20dp"
         android:textStyle="bold"/>
 
+
     <TextView
         android:id="@+id/detailTextView"
         android:layout_width="match_parent"
