@@ -12,7 +12,7 @@ class ReplyReceiver : BroadcastReceiver() {
 
     override fun onReceive(context: Context, intent: Intent) {
         val replyText = RemoteInput.getResultsFromIntent(intent)
-            ?.getCharSequence("Key_text_reply")
+            ?.getCharSequence("key_text_reply")
         Log.d("jjang", "replyText:$replyText")
 
         val manager = context.getSystemService(
