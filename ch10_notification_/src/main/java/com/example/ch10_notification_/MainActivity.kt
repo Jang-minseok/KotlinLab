@@ -21,6 +21,8 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.PackageManagerCompat
 import com.example.ch10_notification_.databinding.ActivityMainBinding
 
+
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
